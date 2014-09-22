@@ -76,7 +76,7 @@ Vagrant.configure("2") do |config|
   # and the path to the validation key (relative to this Vagrantfile).
   #
   # config.vm.provision :chef_client do |chef|
-  # chef.chef_server_url = "https://api.opscode.com/organizations/abedin"
+  #   chef.chef_server_url = "https://api.opscode.com/organizations/abedin"
   #   chef.validation_client_name = "abedin-validator"
   #   chef.validation_key_path = ".chef/abedin-validator.pem"
   # end

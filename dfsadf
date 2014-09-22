@@ -1,0 +1,135 @@
+commit d43930311441faafe7fd74ad954f0f33bb04151f
+Author: abedin.khu <sarder.abedin@gmail.com>
+Date:   Tue Aug 12 21:27:22 2014 +0900
+
+    second
+
+diff --git a/Vagrantfile b/Vagrantfile
+index 7f5e378..5eec22b 100644
+--- a/Vagrantfile
++++ b/Vagrantfile
+@@ -76,7 +76,7 @@ Vagrant.configure("2") do |config|
+   # and the path to the validation key (relative to this Vagrantfile).
+   #
+   # config.vm.provision :chef_client do |chef|
+-  #   chef.chef_server_url = "https://api.opscode.com/organizations/abedin"
++  # chef.chef_server_url = "https://api.opscode.com/organizations/abedin"
+   #   chef.validation_client_name = "abedin-validator"
+   #   chef.validation_key_path = ".chef/abedin-validator.pem"
+   # end
+diff --git a/abedin-validator.pem b/abedin-validator.pem
+index 98cdc8c..b885fb1 100644
+--- a/abedin-validator.pem
++++ b/abedin-validator.pem
+@@ -1,27 +1,27 @@
+ -----BEGIN RSA PRIVATE KEY-----
+-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
+ -----END RSA PRIVATE KEY-----
+\ No newline at end of file
+diff --git a/riajkhu.pem b/riajkhu.pem
+index 156e88b..b42c639 100644
+--- a/riajkhu.pem
++++ b/riajkhu.pem
+@@ -1,27 +1,27 @@
+ -----BEGIN RSA PRIVATE KEY-----
+-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
+ -----END RSA PRIVATE KEY-----
+\ No newline at end of file
